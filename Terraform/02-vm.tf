@@ -1,4 +1,7 @@
+
+
 #Chewbacca: A firewall rule so port 80 can sing to the world.
+
 resource "google_compute_firewall" "chewbacca_allow_http" {
   name    = "chewbacca-allow-http"
   network = "default"
