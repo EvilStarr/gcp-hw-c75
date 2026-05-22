@@ -17,3 +17,7 @@
 # output "vm_self_link" {
 #   value = google_compute_instance.hw_vm.self_link
 # }
+
+output "lb_static_ip" {
+  value = "http://${google_compute_global_address.lb-ip.address}"
+}
