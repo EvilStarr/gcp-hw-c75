@@ -17,9 +17,9 @@ provider "google" {
   zone    = var.zone
 }
 
-provider "aws" {
-  region  = "us-east-2" # Choose your region
-  profile = "default"
-}
+# provider "aws" {
+#   region  = "us-east-2" # Choose your region
+#   profile = "default"
+# }
 
 
